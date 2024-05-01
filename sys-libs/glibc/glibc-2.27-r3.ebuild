@@ -19,10 +19,6 @@ SLOT="2.2"
 
 EMULTILIB_PKG="true"
 
-# Gentoo patchset (ignored for live ebuilds)
-PATCH_VER=3
-PATCH_DEV=dilfridge
-
 # gcc mulitilib bootstrap files version
 GCC_BOOTSTRAP_VER=20201208
 
@@ -107,6 +103,7 @@ IDEPEND="
 "
 BDEPEND="
 	${PYTHON_DEPS}
+	<dev-build/make-4.4
 	>=app-misc/pax-utils-${MIN_PAX_UTILS_VER}
 	sys-devel/bison
 	compile-locales? ( sys-apps/locale-gen )
