@@ -1,0 +1,8 @@
+{
+  build: {
+    name: "rescued-ebuilds_gentoo_overlay_dev_container",
+    dockerfile: "Dockerfile",
+    args: {USERNAME: "${localEnv:USER}", USER_UID: "1000"}
+  },
+  capAdd: ["SYS_ADMIN"]
+}
