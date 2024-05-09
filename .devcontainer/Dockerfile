@@ -1,4 +1,4 @@
-FROM gentoo/stage3:20240422
+FROM gentoo/stage3:20240506
 
 RUN emerge --sync
 # Minimal requirements for dev containers

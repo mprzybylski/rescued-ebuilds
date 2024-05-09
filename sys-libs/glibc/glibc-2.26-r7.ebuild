@@ -20,7 +20,7 @@ SLOT="2.2"
 EMULTILIB_PKG="true"
 
 # Gentoo patchset (ignored for live ebuilds)
-PATCH_VER=3
+PATCH_VER=7
 
 # gcc mulitilib bootstrap files version
 GCC_BOOTSTRAP_VER=20201208
